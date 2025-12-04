@@ -65,7 +65,7 @@ const Technology = () => {
                     className="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-2xl"
                 >
                     <img
-                        src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=2070"
+                        src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=1974"
                         alt="Tecnologia Odontológica"
                         className="absolute inset-0 w-full h-full object-cover"
                     />

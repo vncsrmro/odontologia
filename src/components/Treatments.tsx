@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Sparkles, Smile, Zap, Heart, ShieldPlus, ArrowRight } from 'lucide-react';
+import { Sparkles, Smile, Zap, Heart, ShieldPlus, ArrowRight, Gem } from 'lucide-react';
 
 const treatmentsData = [
     {
@@ -37,6 +37,13 @@ const treatmentsData = [
         description: "Prevenção, limpeza profunda e tratamento de gengiva para manter seu sorriso sempre saudável.",
         icon: Zap,
         color: "bg-yellow-50 text-yellow-500"
+    },
+    {
+        id: 6,
+        title: "Harmonização Orofacial",
+        description: "Procedimentos estéticos funcionais para equilibrar os traços do seu rosto com seu sorriso.",
+        icon: Gem,
+        color: "bg-teal-50 text-teal-500"
     }
 ];
 
