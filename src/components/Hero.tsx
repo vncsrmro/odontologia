@@ -11,14 +11,15 @@ const Hero = () => {
                     alt="Clínica Odontológica Moderna"
                     className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent/30"></div>
+                {/* Optimized Overlay: Stronger white gradient for better text readability */}
+                <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent/20"></div>
             </div>
 
-            {/* Floating Abstract Element */}
+            {/* Floating Abstract Element - Optimized: Hidden on mobile to reduce load */}
             <motion.div
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute top-20 right-20 w-64 h-64 bg-secondary/10 rounded-full blur-3xl z-0"
+                className="absolute top-20 right-20 w-64 h-64 bg-secondary/10 rounded-full blur-3xl z-0 hidden md:block"
             />
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">

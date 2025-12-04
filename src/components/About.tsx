@@ -27,9 +27,9 @@ const About = () => {
                             className="w-full h-full object-cover"
                         />
                     </div>
-                    {/* Decorative element */}
-                    <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-secondary/20 rounded-full blur-2xl -z-10"></div>
-                    <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-100 rounded-full blur-2xl -z-10"></div>
+                    {/* Decorative element - Optimized: Hidden on mobile */}
+                    <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-secondary/20 rounded-full blur-2xl -z-10 hidden md:block"></div>
+                    <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-100 rounded-full blur-2xl -z-10 hidden md:block"></div>
                 </motion.div>
 
                 {/* Content Side */}
