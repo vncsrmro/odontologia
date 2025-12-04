@@ -12,7 +12,8 @@ const Hero = () => {
                     className="w-full h-full object-cover"
                 />
                 {/* Optimized Overlay: Stronger white gradient for better text readability */}
-                <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent/20"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent/10"></div>
+                <div className="absolute inset-0 bg-white/10"></div> {/* Global subtle overlay to tone down image brightness */}
             </div>
 
             {/* Floating Abstract Element - Optimized: Hidden on mobile to reduce load */}
